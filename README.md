@@ -6,18 +6,50 @@ Live site: https://mrb-rafi.github.io/shoiuku/
 
 ## What is in this repository
 
-| Folder | What it holds |
+| Path | What it holds |
 |---|---|
-| `site/` | The website: a static home page (`index.html`) and an all-recordings page (`recordings.html`). This folder is what GitHub Pages publishes. See [site/README.md](site/README.md). |
-| `design-system/` | The ShoiUku design system: colour, type and spacing tokens (`tokens.json`), component styles and guidelines, and the brand book (`README.md`). The site's CSS is generated from it. |
+| `index.html` | The home page. |
+| `recordings.html` | Every project recording, playable from Wikimedia Commons. |
+| `assets/` | The site's CSS, JavaScript, images and recordings data. |
+| `tools/` | Two helper scripts (below). |
+| `design-system/` | The ShoiUku design system: colour, type and spacing tokens (`tokens.json`), component styles and guidelines, and the brand book (`README.md`). |
 | `brand/` | The original brand guideline PDF and the two official logos. |
-| `content-outline.md` | The project facts and the content plan the site was built from. |
-| `details.txt` | The original project notes. |
+| `content-outline.md`, `details.txt` | The project facts and content plan the site was built from. |
 
-## Publishing
+The site is plain HTML, CSS and a little JavaScript, with no build step. GitHub Pages serves it straight from the root of the `main` branch; `.nojekyll` tells Pages not to run Jekyll.
 
-Every push to `main` runs `.github/workflows/pages.yml`, which publishes the `site/` folder to GitHub Pages. No build step is needed.
+## Files
+- `assets/css/tokens.css`: colours, spacing, radii and fonts, generated from the design system. Do not edit it by hand.
+- `assets/css/shoiuku.css`: the design system's component styles, copied in.
+- `assets/css/site.css`: the page layout.
+- `assets/js/site.js`: the mobile menu, number animation and audio players on the home page.
+- `assets/js/recordings.js` and `assets/data/recordings.json`: the recordings page.
+- `assets/img/`: the official logos and partner logos.
+
+## Updating the design
+After changing `design-system/tokens.json` or `design-system/components/bundle.css`, regenerate the site CSS:
+
+```
+python tools/build-tokens.py design-system
+```
+
+After changing any CSS or JS file, raise the `?v=` number on its link in `index.html` and `recordings.html` so browsers fetch the new version.
+
+## Updating the recordings list
+`recordings.html` lists every file in the Commons audio categories (sessions, Swadesh list, master elicitation list). When new recordings are uploaded to Commons, refresh the list with:
+
+```
+python tools/build-recordings.py
+```
+
+## Preview locally
+```
+python -m http.server 8080
+```
+Then open http://localhost:8080.
+
+## Still to fill in
+- Team names: the team cards describe each group (native speakers, consultants, field team) without names for now.
 
 ## Licence
-
-The website, its text and its code are open source under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). See [LICENSE](LICENSE) for what the licence does not cover (Commons photos and recordings, the logo, and partner logos).
+The website, its text and its code are open source under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). See [LICENSE](LICENSE), which also lists what it does not cover: the Commons photos and recordings (CC BY-SA 4.0, Wasiul Bahar), the logo (CC BY 4.0, Ahnaf Tahmid Manan) and the partner logos in `assets/img/partners/` (their owners' trademarks).

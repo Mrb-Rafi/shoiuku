@@ -1,6 +1,6 @@
 """Build the site's CSS from the ShoiUku design system.
 
-Usage: python tools/build-tokens.py ../design-system
+Usage: python tools/build-tokens.py design-system
   - writes assets/css/tokens.css from tokens.json (light on :root, dark via
     prefers-color-scheme and [data-theme="dark"], light via [data-theme="light"])
   - copies components/bundle.css to assets/css/shoiuku.css (fonts are linked in the HTML)
