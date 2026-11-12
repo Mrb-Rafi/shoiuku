@@ -1,0 +1,15 @@
+<!-- @dsCard group="Layout" height=260 subtitle="A brown band ending in the pot's belly curve, then the page" -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>preview</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var S = window.ShoiUku, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(h(React.Fragment, null,
+    h('div', {className: 'su-band su-pad'}, h('span', {className: 'su-sh-eyebrow'}, 'Brown band'), h('p', {style: {margin: '8px 0 0'}}, 'The band ends in the curve of the pot instead of a straight edge.')),
+    h(S.PotCurve, {color: 'brown'}),
+    h('div', {className: 'su-pad'}, h('span', {className: 'su-hook-under', style: {fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 28}}, 'GOLDEN POT'))));
+</script>
+</body>
+</html>

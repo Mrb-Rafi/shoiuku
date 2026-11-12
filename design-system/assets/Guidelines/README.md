@@ -1,0 +1,1 @@
+The original 8-page brand guideline (Canva, CC BY 4.0, Ahnaf Tahmid Manan, 31 May 2025): about and purpose, primary logo, logo message, typography and colour palette. This copy is kept here because the Commons file has been nominated for deletion since 9 August 2026.

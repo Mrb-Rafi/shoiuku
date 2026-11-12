@@ -1,0 +1,45 @@
+<!-- @dsCard height=300 -->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ShoiUku cover</title>
+<style>
+  html, body { margin: 0; background: var(--surface); }
+  .cover { position: relative; width: 960px; height: 300px; overflow: hidden; background: var(--surface); }
+  .cover svg { position: absolute; inset: 0; }
+  .slab { fill: var(--ink); }
+  .orange { fill: var(--orange); }
+  .yellow { fill: var(--yellow); }
+  .tint { fill: var(--orange-soft); }
+  .numeral { fill: var(--orange); font-family: var(--font-display); font-weight: 700; font-size: 280px; }
+  .blk { rx: var(--radius-lg); ry: var(--radius-lg); }
+  .pill { rx: 28px; ry: 28px; }
+  .text { position: absolute; left: 48px; bottom: 40px; max-width: 440px; }
+  .name { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 96px; line-height: .92; letter-spacing: -0.03em; color: var(--ink); }
+  .tag { margin: 12px 0 0; font-family: var(--font-body); font-weight: 600; font-size: 14px; line-height: 18px; color: var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+  <!--
+    blocks: ink slab 256x300 (bleeds top/right/bottom, radius-lg corner) · orange 240x150 radius-lg · yellow pill 160x56 (radius-pill = half of 56) · orange-soft disc 56
+    arrangement: one tall slab on the right with satellites stacked to its left, the orange block overlapping the slab edge like pots stacked in the ground
+    pattern: one oversized Space Mono numeral "0", clipped by the slab — the guideline marks every chapter with a huge faded numeral in its display face
+    scales: gaps space-4 (16px), insets space-12 (48px), radii radius-lg (28px) and radius-pill
+  -->
+  <svg viewBox="0 0 960 300" width="960" height="300" aria-hidden="true">
+    <defs><clipPath id="slabclip"><rect x="704" y="-28" width="284" height="356" rx="28" ry="28"></rect></clipPath></defs>
+    <rect class="slab blk" x="704" y="-28" width="284" height="356"></rect>
+    <text class="numeral" x="844" y="262" text-anchor="middle" clip-path="url(#slabclip)">0</text>
+    <rect class="orange blk" x="512" y="48" width="240" height="150"></rect>
+    <rect class="yellow pill" x="512" y="214" width="160" height="56"></rect>
+    <rect class="tint pill" x="688" y="214" width="56" height="56"></rect>
+  </svg>
+  <div class="text">
+    <h1 class="name">ShoiUku</h1>
+    <p class="tag">The golden clay pot. Colours, type and components for preserving the Chak language.</p>
+  </div>
+</div>
+</body>
+</html>

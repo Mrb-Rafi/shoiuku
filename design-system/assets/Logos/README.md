@@ -1,0 +1,1 @@
+The two official marks by Ahnaf Tahmid Manan (CC BY 4.0, Wikimedia Commons, 31 May 2025). `logo.svg` is the pot/note mark alone; `logo-vertical.svg` stacks the mark over the wordmark. Both are full-colour (gold gradient `gold-light` to `gold-deep`, edge `gold-shadow`), not single-ink: use them on `brown` or `surface`, never on `orange` or `yellow`, and never recolour them.

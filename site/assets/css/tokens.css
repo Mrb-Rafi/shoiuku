@@ -1,0 +1,103 @@
+/* ShoiUku — generated from the design system's tokens.json by tools/build-tokens.py. Do not edit by hand. */
+:root {
+  --surface: #f6f1e9;
+  --surface-raised: #fffbf4;
+  --surface-sunken: #efe6d8;
+  --line: #e3d5c2;
+  --ink: #4f200d;
+  --ink-muted: #7a4a33;
+  --orange: #ff8400;
+  --orange-text: #9a4700;
+  --orange-soft: #ffe7cc;
+  --on-orange: #4f200d;
+  --yellow: #ffd93d;
+  --brown: #4f200d;
+  --cream: #f6f1e9;
+  --gold-light: #ffef13;
+  --gold-deep: #db8802;
+  --gold-shadow: #d18100;
+  --teal: #1f5f73;
+  --teal-soft: #dceef2;
+  --rust: #a1261b;
+  --rust-soft: #fbe1dc;
+  --link: var(--orange-text);
+  --shadow-sm: 0 1px 2px #4f200d14, 0 2px 6px #4f200d0f;
+  --shadow-lg: 0 6px 14px #4f200d1a, 0 18px 40px -8px #4f200d33;
+  --focus-ring: 0 0 0 2px #f6f1e9, 0 0 0 4px #4f200d;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-24: 96px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --radius-neck: 14px;
+  --radius-belly: 44px;
+  --radius-belly-lg: 96px;
+  --radius-pill: 999px;
+  --measure: 65ch;
+  --content-max: 1160px;
+  --font-display: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --font-body: "Darker Grotesque", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+  --surface: #3b1809;
+  --surface-raised: #4f200d;
+  --surface-sunken: #2e1206;
+  --line: #6b3a24;
+  --ink: #f6f1e9;
+  --ink-muted: #d9c6b3;
+  --orange: #ff8400;
+  --orange-text: #ff9a2e;
+  --orange-soft: #5c2a0e;
+  --on-orange: #4f200d;
+  --yellow: #ffd93d;
+  --brown: #4f200d;
+  --cream: #f6f1e9;
+  --gold-light: #ffef13;
+  --gold-deep: #db8802;
+  --gold-shadow: #d18100;
+  --teal: #7dc4d6;
+  --teal-soft: #1e3238;
+  --rust: #ff9a8a;
+  --rust-soft: #4a1a12;
+  --link: var(--orange-text);
+  --shadow-sm: 0 1px 3px #000000a6;
+  --shadow-lg: 0 18px 40px -8px #000000cc;
+  --focus-ring: 0 0 0 2px #3b1809, 0 0 0 4px #ffd93d;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --surface: #3b1809;
+  --surface-raised: #4f200d;
+  --surface-sunken: #2e1206;
+  --line: #6b3a24;
+  --ink: #f6f1e9;
+  --ink-muted: #d9c6b3;
+  --orange: #ff8400;
+  --orange-text: #ff9a2e;
+  --orange-soft: #5c2a0e;
+  --on-orange: #4f200d;
+  --yellow: #ffd93d;
+  --brown: #4f200d;
+  --cream: #f6f1e9;
+  --gold-light: #ffef13;
+  --gold-deep: #db8802;
+  --gold-shadow: #d18100;
+  --teal: #7dc4d6;
+  --teal-soft: #1e3238;
+  --rust: #ff9a8a;
+  --rust-soft: #4a1a12;
+  --link: var(--orange-text);
+  --shadow-sm: 0 1px 3px #000000a6;
+  --shadow-lg: 0 18px 40px -8px #000000cc;
+  --focus-ring: 0 0 0 2px #3b1809, 0 0 0 4px #ffd93d;
+  color-scheme: dark;
+}

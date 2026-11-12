@@ -1,0 +1,17 @@
+<!-- @dsCard group="Story" height=520 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>preview</title></head>
+<body>
+<div id="root" class="su-pad"></div>
+<script>
+  var S = window.ShoiUku, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(h(S.Timeline, {items: [
+    {when: 'Start', title: 'Record and romanise', text: 'Record Chak words from native speakers and write them in IPA or a romanised form for Wiktionary and Wikidata.'},
+    {when: 'Fieldwork', kind: 'milestone', title: 'Naikkhangchori, Bandarban', text: 'About 200 minutes of audio and 1,000 words recorded with five native speakers.'},
+    {when: 'Discovery', kind: 'discovery', title: 'Chak has a script', text: 'A Chak linguist created a script around 2016. It is used in Myanmar and in some government Chak classes in Bangladesh.'},
+    {when: 'Blocker', kind: 'blocker', title: 'Not in Unicode yet', text: 'Without Unicode there is no standard keyboard. Encoding may take several years.'}
+  ]}));
+</script>
+</body>
+</html>

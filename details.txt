@@ -1,0 +1,29 @@
+Nutshell video: https://www.facebook.com/share/v/1Gfvtuozdy/
+Nutshell article: https://www.nutshelltoday.com/article/chak-language-preservation
+
+https://commons.wikimedia.org/wiki/Category:Project_Korikath-ShoiUku
+
+project logo: https://commons.wikimedia.org/wiki/File:Project_Korikath-ShoiUku_Logo.svg
+another logo: https://commons.wikimedia.org/wiki/File:Project_Korikath-ShoiUku_V_Logo.svg
+
+brand guideline: https://commons.wikimedia.org/wiki/File:Project_Korikath-ShoiUku_Brand_Guideline.pdf
+
+
+https://www.facebook.com/share/p/1EbGAWM2hR/
+
+https://www.nutshelltoday.com/article/chak-language-preservation
+
+Audio : 200~ minutes
+Word recorded: 1000~
+Video: 20 minutes ~
+Field team member: 10
+Native Speakers: 5
+Consultant: 3
+
+https://commons.wikimedia.org/wiki/Category:Project_Korikath-ShoiUku-Audio
+
+We began with the goal of recording Chak words from native speakers and documenting them using IPA or a romanized form. Members of our team who are native Chak speakers informed us that Chak does not have a written script. Our initial plan was to preserve these words on Wiktionary and especially on Wikidata. We also planned to use these resources to build a speech to text model and a parallel corpus for translation. We included relevant specialists in the team to support these goals.
+
+We conducted field research to assess the situation and collect audio materials. The fieldwork was successful and provided several important insights. We learned that a Chak linguist had developed a new Chak script around 2016. This script is now widely used in Myanmar and in some government run Chak language training programs in Bangladesh. Our advisors suggested that we respect the community practice and include this script in our plan.
+
+The discovery of the script created new possibilities. It allowed us to consider adding Chak OCR to our AI priorities. This task would be relatively straightforward. At the same time, the discovery forced us to review our entire plan. We realized that we first needed a Chak keyboard before moving forward with other steps. Our consultant advised us to contact the Unicode community because the Chak script is not yet included in Unicode. Inclusion in Unicode is necessary to build keyboards for phones and desktop devices. Daniel helped us connect with experts who assist language communities in adding scripts to Unicode. They informed us that the process may take several years and requires careful evaluation. They also suggested creating a temporary keyboard using the Unicode Private Use Area. This option has several disadvantages. A keyboard based on the Private Use Area will display the script only on devices where the keyboard is installed. In addition, every document will later need to be converted to the official Chak character range once the script is included in Unicode. This process may be difficult for the Chak community, which currently has limited experience with technology. Our advisors also noted that maintaining a Private Use Area keyboard would require paid technical specialists. We are now searching for programmers who can help us build the keyboard and address these technical challenges on a pro bono basis. After that, we will work to help the Chak community learn how to install and use the keyboard on their devices.

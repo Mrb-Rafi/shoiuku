@@ -1,0 +1,35 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": { "v": 1, "at": "2026-11-12T15:20:00Z" },
+  "title": "ShoiUku Design System",
+  "namespace": "ShoiUku",
+  "libraries": [
+    { "name": "react", "version": "18" },
+    { "name": "react-dom", "version": "18" }
+  ],
+  "sections": {},
+  "groups": ["Logos", "Guidelines"],
+  "assetGroups": {
+    "Logos": {
+      "name": "Logos",
+      "tile": "l",
+      "order": ["logo.svg", "logo-vertical.svg"],
+      "files": {
+        "logo.svg": { "name": "logo.svg", "blob": "d57fde00a7cd6ad523a2674d9c21f26b", "size": 2380, "type": "image/svg+xml" },
+        "logo-vertical.svg": { "name": "logo-vertical.svg", "blob": "9b15c6a1404239575f149dc097feed33", "size": 18664, "type": "image/svg+xml" }
+      }
+    },
+    "Guidelines": {
+      "name": "Guidelines",
+      "tile": "m",
+      "order": ["Project_Korikath-ShoiUku_Brand_Guideline.pdf"],
+      "files": {
+        "Project_Korikath-ShoiUku_Brand_Guideline.pdf": { "name": "Project_Korikath-ShoiUku_Brand_Guideline.pdf", "blob": "96f459e428fe9028fbcd9bfac178d7ba", "size": 9184675, "type": "application/pdf" }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": { "readme": "project/README.md", "sections": [] },
+  "lastChange": { "by": "Claude", "at": "2026-11-12T17:35:00Z", "via": "Claude Code", "note": "Section numerals more visible: orange at 22% instead of orange-soft." }
+}

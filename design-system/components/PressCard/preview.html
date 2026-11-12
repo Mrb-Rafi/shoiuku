@@ -1,0 +1,14 @@
+<!-- @dsCard group="Media" height=560 subtitle="Reel and article" -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>preview</title></head>
+<body>
+<div id="root" class="su-stack su-pad"></div>
+<script>
+  var S = window.ShoiUku, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(h(React.Fragment, null,
+    h(S.PressCard, {kind: 'reel', outlet: 'Nutshell Today', headline: 'Preserving the Chak language', href: 'https://www.facebook.com/reel/30131448059789075', media: 'Facebook reel embed (9:16)'}),
+    h(S.PressCard, {outlet: 'Nutshell Today', headline: 'From a Golden Pot to the Global Stage', author: 'Wasiul Bahar', date: '22 Oct 2026', href: 'https://www.nutshelltoday.com/article/chak-language-preservation'})));
+</script>
+</body>
+</html>

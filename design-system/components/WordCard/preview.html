@@ -1,0 +1,14 @@
+<!-- @dsCard group="Language" height=330 subtitle="Default and playing" -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>preview</title></head>
+<body>
+<div id="root" class="su-grid su-pad"></div>
+<script>
+  var S = window.ShoiUku, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(h(React.Fragment, null,
+    h(S.WordCard, {roman: 'shoi uku', gloss: 'golden clay pot', category: 'Culture', credit: 'Project ShoiUku'}),
+    h(S.WordCard, {roman: 'shoi uku', gloss: 'golden clay pot', category: 'Culture', credit: 'Project ShoiUku', className: 'is-playing'})));
+</script>
+</body>
+</html>

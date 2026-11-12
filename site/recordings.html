@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>All recordings · Project ShoiUku</title>
+<meta name="description" content="Every Chak recording made by Project ShoiUku: recording sessions, the Swadesh list and the master elicitation list, playable from Wikimedia Commons.">
+<meta name="theme-color" content="#4f200d">
+<meta property="og:title" content="All recordings · Project ShoiUku">
+<meta property="og:description" content="Hear Chak spoken: 474 recordings of words and sessions with native speakers.">
+<meta property="og:type" content="website">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="assets/css/tokens.css?v=10">
+<link rel="stylesheet" href="assets/css/shoiuku.css?v=10">
+<link rel="stylesheet" href="assets/css/site.css?v=10">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/img/logo.svg" alt="" width="26" height="37"><span>Project ShoiUku</span></a>
+    <nav class="nav" aria-label="Main">
+      <ul class="nav-links" id="nav-links" hidden>
+        <li><a href="index.html#story">Story</a></li>
+        <li><a href="index.html#chak">Chak</a></li>
+        <li><a href="index.html#journey">Journey</a></li>
+        <li><a href="index.html#field">Fieldwork</a></li>
+        <li><a href="index.html#roadmap">Roadmap</a></li>
+        <li><a href="index.html#listen" aria-current="page">Listen</a></li>
+        <li><a href="index.html#team">Team</a></li>
+        <li><a href="index.html#involved">Get involved</a></li>
+      </ul>
+      <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="rec-hero su-band" aria-labelledby="rec-title">
+    <img class="hero-watermark" src="assets/img/logo.svg" alt="">
+    <div class="wrap">
+      <a class="rec-back" href="index.html#listen">← Back to Listen and explore</a>
+      <span class="hero-eyebrow">Listen</span>
+      <h1 id="rec-title">All <span class="su-gold-text">recordings</span></h1>
+      <p class="lead">Every recording our team made with native Chak speakers in Naikkhangchori, Bandarban. Each one plays straight from Wikimedia Commons.</p>
+      <ul class="rec-counts" id="rec-counts">
+        <li><b>474</b> recordings</li>
+        <li><b>11</b> sessions</li>
+        <li><b>140</b> Swadesh list</li>
+        <li><b>323</b> elicitation list</li>
+      </ul>
+    </div>
+  </section>
+  <svg class="su-curve su-curve-brown" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 0H1440V34C1290 92 1090 118 860 112C628 106 430 72 262 54C150 42 64 46 0 64Z"/></svg>
+
+  <section class="section rec-body" aria-label="Recordings">
+    <div class="wrap">
+      <div class="rec-tools">
+        <div class="rec-tabs" role="tablist" aria-label="Show recordings from">
+          <button type="button" role="tab" id="tab-all" aria-selected="true" data-group="all">All</button>
+          <button type="button" role="tab" id="tab-sessions" aria-selected="false" data-group="sessions">Sessions</button>
+          <button type="button" role="tab" id="tab-swadesh" aria-selected="false" data-group="swadesh">Swadesh list</button>
+          <button type="button" role="tab" id="tab-elicitation" aria-selected="false" data-group="elicitation">Elicitation list</button>
+        </div>
+        <label class="rec-search" for="rec-q">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.8-4.8"/></svg>
+          <span class="sr-only">Find a word in English</span>
+          <input id="rec-q" type="search" placeholder="Find a word in English, e.g. water" autocomplete="off">
+        </label>
+      </div>
+      <p class="caption rec-status" id="rec-status" aria-live="polite">Loading recordings…</p>
+      <div id="rec-list"></div>
+      <noscript>
+        <p class="lead">This list needs JavaScript. You can also browse the recordings on Wikimedia Commons:</p>
+        <p><a href="https://commons.wikimedia.org/wiki/Category:Project_Korikath-ShoiUku-Audio">All audio on Commons</a></p>
+      </noscript>
+      <p class="caption rec-credit">Recordings by Wasiul Bahar with native Chak speakers, CC BY-SA 4.0, on <a href="https://commons.wikimedia.org/wiki/Category:Project_Korikath-ShoiUku-Audio">Wikimedia Commons</a>. English words are the prompts the speakers translated into Chak. Some words have a second take.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-name"><img src="assets/img/logo.svg" alt="" width="48" height="68"><span>Project ShoiUku</span></div>
+        <p>A language revitalisation initiative preserving the Chak language for future generations. Project ShoiUku is part of the Project Korikath family.</p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="recordings.html">All recordings</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/Category:Project_Korikath-ShoiUku">Photos on Commons</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/Category:Project_Korikath-ShoiUku-Audio">Audio on Commons</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Project_Korikath-ShoiUku_Brand_Guideline.pdf">Brand guideline</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>In the news</h2>
+        <ul>
+          <li><a href="https://www.nutshelltoday.com/article/chak-language-preservation">Nutshell Today article</a></li>
+          <li><a href="https://www.facebook.com/reel/30131448059789075">Nutshell Today reel</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-legal">This website, its text and its code are open source under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a>. Photos and recordings by Wasiul Bahar, CC BY-SA 4.0, via Wikimedia Commons. Logo by Ahnaf Tahmid Manan, CC BY 4.0. Partner logos belong to their owners.</p>
+  </div>
+</footer>
+
+<audio id="rec-player" preload="none"></audio>
+<script src="assets/js/site.js?v=10" defer></script>
+<script src="assets/js/recordings.js?v=10" defer></script>
+</body>
+</html>

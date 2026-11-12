@@ -1,0 +1,12 @@
+<!-- @dsCard group="Data" height=170 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>preview</title></head>
+<body>
+<div id="root" class="su-grid su-pad"></div>
+<script>
+  var S = window.ShoiUku, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(h(React.Fragment, null, h(S.Stat, {value: '200', unit: 'min', approx: true, label: 'Audio recorded'}), h(S.Stat, {value: '1,000', approx: true, label: 'Words recorded'}), h(S.Stat, {value: '5', label: 'Native speakers'}), h(S.Stat, {value: '10', label: 'Field team members'})));
+</script>
+</body>
+</html>
