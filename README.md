@@ -2,7 +2,7 @@
 
 Website and design system for **Project ShoiUku**, part of the Project Korikath family. The project documents, digitises and promotes the Chak language, spoken by about 4,000 people in Bangladesh and Myanmar.
 
-Live site: https://mrb-rafi.github.io/shoiuku/
+Live site: https://shoiuku.korikath.org/
 
 ## What is in this repository
 
@@ -35,12 +35,22 @@ python tools/build-tokens.py design-system
 
 After changing any CSS or JS file, raise the `?v=` number on its link in `index.html` and `recordings.html` so browsers fetch the new version.
 
+## Search engines and AI assistants
+- Each page has a canonical URL on `shoiuku.korikath.org`, Open Graph and Twitter cards (`assets/img/og-image.png`) and schema.org JSON-LD (project, Chak language, FAQ, recordings dataset).
+- `robots.txt` allows all crawlers, including AI assistants, and points to `sitemap.xml`.
+- `llms.txt` is a short guide for AI assistants (llmstxt.org format); `llms-full.txt` has all the facts and the complete word list.
+- `recordings.html` contains the full word list in its HTML, so it can be read without JavaScript.
+- Rebuild the share image and icons with `python tools/build-social-images.py`.
+
 ## Updating the recordings list
 `recordings.html` lists every file in the Commons audio categories (sessions, Swadesh list, master elicitation list). When new recordings are uploaded to Commons, refresh the list with:
 
 ```
 python tools/build-recordings.py
+python tools/build-llms.py
 ```
+
+`build-recordings.py` refreshes `assets/data/recordings.json` and the list inside `recordings.html`; `build-llms.py` refreshes `llms.txt`, `llms-full.txt` and `sitemap.xml`.
 
 ## Preview locally
 ```

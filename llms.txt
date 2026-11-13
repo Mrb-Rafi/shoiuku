@@ -1,0 +1,28 @@
+# Project ShoiUku
+
+> Project ShoiUku is a language revitalisation project, part of the Project Korikath family, that records, digitises and promotes Chak (also called Sak, ISO 639-3: ckh), an endangered language spoken by about 3,000 people in Bangladesh and about 1,000 in Myanmar. It publishes its recordings openly on Wikimedia Commons under CC BY-SA 4.0 and is working towards a Chak keyboard and Unicode support for the Chak script.
+
+Key facts:
+- Language: Chak (Sak), ISO 639-3 code ckh. Spoken in the Bandarban hill district of Bangladesh (including Naikkhangchori) and in Myanmar.
+- Status: one of the most endangered languages in Bangladesh; young people learn Bengali and English for school and work, and few elders still speak Chak well.
+- Script: a Chak script was created by a Chak linguist around 2016. It is used in Myanmar and in some government Chak classes in Bangladesh, but it is not yet in Unicode.
+- Recordings: 474 audio recordings on Wikimedia Commons (11 sessions, 140 Swadesh list, 323 master elicitation list), by Wasiul Bahar, CC BY-SA 4.0.
+- Fieldwork: about 200 minutes of audio, about 1,000 words and about 20 minutes of video recorded in Naikkhangchori, Bandarban, with five native speakers.
+- Team: led by Wasiul Bahar with Team Korikath (ten field team members, five native speakers, three consultants). Supported by Wikitongues and the Endangered Language Fund.
+- Name: "ShoiUku" is the Chak word for the golden clay pot in which Chak families buried their valuables during war.
+- Contact: wasi78045@gmail.com
+
+## Pages
+- [Home](https://shoiuku.korikath.org/): the project, the Chak language, the fieldwork, the roadmap, the team and how to help
+- [All recordings](https://shoiuku.korikath.org/recordings.html): every recording, playable in the browser, with English prompt words
+- [Frequently asked questions](https://shoiuku.korikath.org/#faq): short answers about Chak and the project
+
+## Data
+- [Recordings list (JSON)](https://shoiuku.korikath.org/assets/data/recordings.json): every recording with its English prompt, take number, duration and Commons audio URL
+- [Photos and audio on Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Project_Korikath-ShoiUku)
+- [Audio category on Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Project_Korikath-ShoiUku-Audio)
+
+## Optional
+- [Full text for AI assistants](https://shoiuku.korikath.org/llms-full.txt): all facts and the complete word list in one file
+- [Source code](https://github.com/Mrb-Rafi/shoiuku): website and design system, CC BY-SA 4.0
+- [Press: Nutshell Today, "From a Golden Pot to the Global Stage" (22 Oct 2026)](https://www.nutshelltoday.com/article/chak-language-preservation)

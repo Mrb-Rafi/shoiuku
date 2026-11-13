@@ -1,0 +1,15 @@
+{
+  "name": "Project ShoiUku",
+  "short_name": "ShoiUku",
+  "description": "Preserving the Chak language of Bangladesh and Myanmar.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#f6f1e9",
+  "theme_color": "#4f200d",
+  "icons": [
+    { "src": "/assets/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/img/logo.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

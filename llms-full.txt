@@ -1,0 +1,72 @@
+# Project ShoiUku: full reference
+
+Source: https://shoiuku.korikath.org/ (last updated 2026-11-13). Licence: CC BY-SA 4.0. Please credit "Project ShoiUku" and link to https://shoiuku.korikath.org/ when you use this information.
+
+## Summary
+Project ShoiUku is a language revitalisation project, part of the Project Korikath family, that records, digitises and promotes Chak (also called Sak, ISO 639-3: ckh), an endangered language spoken by about 3,000 people in Bangladesh and about 1,000 in Myanmar.
+
+## The Chak language
+- Also called: Sak. ISO 639-3 code: ckh.
+- Speakers: about 3,000 in Bangladesh and about 1,000 in Myanmar (about 4,000 in total).
+- Where: the Bandarban hill district of Bangladesh, including Naikkhangchori, and Myanmar.
+- Why it is endangered: Chak is used mainly within the community. School and work happen in Bengali and English, so many young Chak people see little reason to learn it, and few elders still know it well.
+- Writing: the team was first told Chak had no script. Fieldwork showed that a Chak linguist created a script around 2016. It is widely used in Myanmar and in some government-run Chak language classes in Bangladesh. The project now follows this community practice.
+
+## What ShoiUku means
+ShoiUku is the golden clay pot. During times of war, Chak families stored their most valuable belongings in these pots and buried them underground; when the conflict passed, they dug them up. The project treats the Chak language as that treasure. The logo is the pot, which also reads as a musical note (oral tradition) and contains the letters S and U.
+
+## The project
+- Part of the Project Korikath family. Led by Wasiul Bahar, an open-knowledge advocate who has also recorded Garo, Marma and Chakma.
+- Team Korikath: ten field team members, five native Chak speakers and three consultants. Mong Hai Thoway Chak and family connected the team with the community.
+- Supporters: Wikitongues and the Endangered Language Fund. Daniel Bögre Udell of Wikitongues connected the team with experts who help communities add scripts to Unicode.
+- Fieldwork: Naikkhangchori, Bandarban, Bangladesh. About 200 minutes of audio, about 1,000 words and about 20 minutes of video.
+
+## Journey
+1. First plan: record Chak words from native speakers, write them in IPA or a romanised form, publish them on Wiktionary and Wikidata, and use them to build a speech-to-text model and a parallel corpus for translation.
+2. Fieldwork in Naikkhangchori recorded words, phrases and numerals.
+3. Discovery: Chak already has a script (around 2016). Chak OCR became a realistic goal.
+4. Blocker: the Chak script is not in Unicode. Encoding a script can take several years, so there is no standard keyboard.
+5. Now: looking for pro bono programmers to build an interim keyboard in the Unicode Private Use Area. Drawbacks: text only displays where the keyboard is installed, documents must be converted once Chak is officially encoded, and the keyboard needs ongoing technical maintenance.
+6. Next: teach the community to install and use the keyboard.
+
+## Roadmap (November 2026)
+- Open recordings on Wikimedia Commons: done.
+- Chak keyboard (Private Use Area): seeking programmers.
+- Unicode encoding of the Chak script: blocked, long process.
+- Keyboard training for the community: planned.
+- Wiktionary and Wikidata entries: planned.
+- Chak OCR, speech-to-text and a parallel corpus: planned.
+
+## How to help
+- Programmers: build and maintain a Chak keyboard for Android, iOS, Windows and macOS.
+- Linguists and script experts: help prepare the Chak script for Unicode.
+- Wikimedians: add Chak words to Wikidata and Wiktionary, or improve the Commons files.
+- Funders: support fieldwork, training and the keyboard work.
+- Contact: wasi78045@gmail.com
+
+## Recordings (474 on Wikimedia Commons, by Wasiul Bahar, CC BY-SA 4.0)
+Listen: https://shoiuku.korikath.org/recordings.html
+Data: https://shoiuku.korikath.org/assets/data/recordings.json
+
+### Recording sessions
+- Counting 1 to 50 (Tui Ma Ching Chak (1 50).mp3, 7.2 min): https://commons.wikimedia.org/wiki/File:Tui_Ma_Ching_Chak_(1_50).mp3
+- Counting 51 to 100 (Thui Ma Ching Chak (51-100).mp3, 7.4 min): https://commons.wikimedia.org/wiki/File:Thui_Ma_Ching_Chak_(51-100).mp3
+- Cultural items and constructions (Cultural items and constructions (full).mp3, 6.4 min): https://commons.wikimedia.org/wiki/File:Cultural_items_and_constructions_(full).mp3
+- Discussion: cultural items (Discussion of cultural item and constructs.mp3, 15.2 min): https://commons.wikimedia.org/wiki/File:Discussion_of_cultural_item_and_constructs.mp3
+- Discussion: pronouns (Discussion on prpnouns.mp3, 10.7 min): https://commons.wikimedia.org/wiki/File:Discussion_on_prpnouns.mp3
+- Discussion: verbs (Discussion on verb.mp3, 35.7 min): https://commons.wikimedia.org/wiki/File:Discussion_on_verb.mp3
+- Kinship terms (Aong thowai Ching Chak (kinterms).mp3, 13.0 min): https://commons.wikimedia.org/wiki/File:Aong_thowai_Ching_Chak_(kinterms).mp3
+- Numbers 1 to 100 (Numericals in Chak (1 to 100).mp3, 3.7 min): https://commons.wikimedia.org/wiki/File:Numericals_in_Chak_(1_to_100).mp3
+- Pronouns (Pronoun lamra Ching Chak.mp3, 2.1 min): https://commons.wikimedia.org/wiki/File:Pronoun_lamra_Ching_Chak.mp3
+- Short recording (Voice 2.mp3, 1.6 min): https://commons.wikimedia.org/wiki/File:Voice_2.mp3
+- Verbs in Chak (Chak Verb.mp3, 59.1 min): https://commons.wikimedia.org/wiki/File:Chak_Verb.mp3
+
+### Swadesh list (140 recordings, 115 English prompt words, each spoken in Chak)
+And, Because, Berry, Bird, Bite, Blow, Breath, Burn, Clothing, Cook, Count, Cut, Die, Dig, Dirty, Drink, Dry, Dull, Fall, Fat, Fear, Feather, Few, Fight, Fish, Float, Flow, Fly, Freeze, Give, Guts, Hear, Hold, How, If, Kill, Know, Lie (Rest), Live, Many, Narrow, New, New (2), Not, Old (opposite of new), Old (opposite of young), Other, Play, Puke, Pull, Push, Right, River, Rotten, Rub, Scratch, Sea, See, Seed, Sew, Sharp, Shoot, Sit, Sleep, Smell, Smooth, Some, Spit, Split, Squeeze, Stab, Stand, Stick, Straight, Suck, Sun, Swell, Swim, Tail, That, There, They, Thick, Thin, Think, This, Throw, Tie, Tongue, Tooth, Tree, Turn, Twenty, Walk, Warm, Wash, Water, Wet, What, When, Where, White, Who, Wife, Wind, Wing, Wipe, Wise, With, Woman, Woods, Work, Worm, Year, Yellow
+
+### Master elicitation list (323 recordings, 218 English prompt words, each spoken in Chak)
+Air, All, Alone, Ankle, Another, Ant, Arm, At night, Awake, Back, Backbone, Bad, Bald, Bat, Bear, Beard, Beautiful, Bee, Belly, Better, Big, Bird, Birth, Blind, Blood, Boar, Boiled, Bone, Both, Brain, Broken, Burned, Butterfly, Cave, Cheek, Chest, Chicken, Chicken egg, Chin, Clean, Cloud, Cloudy, Cockroach, Cold, Cooked, Cough, Crab, Crocodile, Crow, Dark, Day, Day after tomorrow, Day before yesterday, Dead, Deaf, Deap, Death, Dirty, Dog, Dream, Dried, Duck, Eagle, Ear, Elbow, Elderly, Every, Everyday, Eye, Eyebrow, Fast, Fat, Fat (person), Feather, Female, Finger, Finger nail, Fire, Fish, Fist, Flat, Flea, Fly, Foot, Free, Frightened, Frog, Fullmoon, Gold, Good, Hail, Hair, Happy, Hard, Head, Heart, Hidden, High, Hive, Hole, Honey, Hot, Huge, Hungry, Impossible, In morning, Itch, Kind, Knee, Language, Leech, Left, Leg, Lightning, Little, Little Finger, Lizard, Long, Louse, Lung, Male, Meat, Monkey, Moon, Mosquito, Mountain, Mouse, Mouth, Mud, Name, Neck, Nest, Never, New, Night, No, Nose, Now, Ocean, Old, Ols (Person), Orphane, Other, Pain, Pig, Pond, Poor, Possible, Powerful, Rain, Rainbow, Rib, Rich, Right, Ripe, River, Rock, Sad, Saliva, Salt, Sand, Sharp, Shoulder, Sick, Silent, Skin, Skull, Sky, Slow, Small, Smell, Smoke, Smooth, Snake, Snow, Spider, Star, Stomach, Stone, Story, Strong, Summer, Sun, Sweat, Sweet, Thick, Thigh, Thin, Thumb, Tiger, Tired, Toad, Today, Toe, Toe nail, Tomorrow, Tongue, Tooth, True, Turtle, Urine, Valley, Vomit, Waist, Water, Waterfall, Weak, Wet, Wide, Wind, Wing, Winter, Word, Worm, Year, Yes, Yesterday, Young
+
+## Press
+- Nutshell Today, "From a Golden Pot to the Global Stage", by Wasiul Bahar, 22 October 2026: https://www.nutshelltoday.com/article/chak-language-preservation
+- Nutshell Today reel: https://www.facebook.com/reel/30131448059789075

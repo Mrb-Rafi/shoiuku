@@ -81,3 +81,57 @@ os.makedirs(out, exist_ok=True)
 json.dump({'generated': time.strftime('%Y-%m-%d'), 'licence': 'CC BY-SA 4.0, Wasiul Bahar, via Wikimedia Commons', 'groups': groups},
           open(os.path.join(out, 'recordings.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 print('wrote assets/data/recordings.json')
+
+
+# ---------- static list in recordings.html (readable without JavaScript, for search engines and AI tools) ----------
+import html as _html
+PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.2-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></svg>'
+
+
+def esc(x):
+    return _html.escape(str(x), quote=True)
+
+
+def clock(sec):
+    sec = round(sec)
+    if sec < 60:
+        return f'{sec} s'
+    h, m, s_ = sec // 3600, sec % 3600 // 60, sec % 60
+    return (f'{h}:{m:02d}' if h else f'{m}') + f':{s_:02d}'
+
+
+parts = []
+for g in groups:
+    if g['id'] == 'sessions':
+        parts.append(f'<section class="rec-group" aria-labelledby="h-{g["id"]}"><div class="rec-group-head"><h2 id="h-{g["id"]}">{esc(g["label"])}</h2><span class="caption">{len(g["items"])} long recordings</span></div><div class="recordings">')
+        for it in g['items']:
+            parts.append(f'<article class="su-word rec-session"><button class="su-word-play" type="button" data-src="{esc(it["src"])}" aria-label="Play {esc(it["title"])}" aria-pressed="false">{PLAY}</button>'
+                         f'<div class="su-word-head"><span class="su-word-roman">{esc(it["title"])}</span></div><div class="su-word-gloss">{clock(it["duration"])}</div>'
+                         f'<div class="su-word-progress" aria-hidden="true"><span></span></div><div class="su-word-meta"><span>{esc(it["file"].rsplit(".", 1)[0])}</span><a href="{esc(it["page"])}">Source on Commons</a></div></article>')
+        parts.append('</div></section>')
+    else:
+        words, order = {}, []
+        for it in g['items']:
+            k = it['word'].lower()
+            if k not in words:
+                words[k] = {'word': it['word'], 'takes': []}
+                order.append(k)
+            words[k]['takes'].append(it)
+        parts.append(f'<section class="rec-group" aria-labelledby="h-{g["id"]}"><div class="rec-group-head"><h2 id="h-{g["id"]}">{esc(g["label"])}</h2><span class="caption">{len(order)} words · {len(g["items"])} recordings · <a href="{esc(g["category"])}">on Commons</a></span></div><ul class="rec-words">')
+        for k in order:
+            w = words[k]
+            multi = len(w['takes']) > 1
+            btns = ''
+            for i, t in enumerate(w['takes']):
+                label = f'Play {w["word"]}, take {i + 1}' if multi else f'Play {w["word"]}'
+                btns += f'<button class="rec-take" type="button" data-src="{esc(t["src"])}" aria-label="{esc(label)}" aria-pressed="false" title="{esc(t["file"])}">{PLAY}{f"<span>{i + 1}</span>" if multi else ""}</button>'
+            parts.append(f'<li class="rec-word{" rec-word-multi" if multi else ""}"><span class="rec-word-name">{esc(w["word"])}</span><span class="rec-takes">{btns}</span></li>')
+        parts.append('</ul></section>')
+
+page = os.path.join(here, 'recordings.html')
+doc = open(page, encoding='utf-8').read()
+start, end = '<!-- RECORDINGS:START -->', '<!-- RECORDINGS:END -->'
+a, b = doc.index(start) + len(start), doc.index(end)
+doc = doc[:a] + '\n' + '\n'.join(parts) + '\n' + doc[b:]
+open(page, 'w', encoding='utf-8', newline='\n').write(doc)
+print('wrote the static list into recordings.html')
