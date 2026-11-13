@@ -12,7 +12,7 @@ Live site: https://shoiuku.korikath.org/
 | `recordings.html` | Every project recording, playable from Wikimedia Commons. |
 | `assets/` | The site's CSS, JavaScript, images and recordings data. |
 | `tools/` | Two helper scripts (below). |
-| `design-system/` | The ShoiUku design system: colour, type and spacing tokens (`tokens.json`), component styles and guidelines, and the brand book (`README.md`). |
+| `design-system/` | The ShoiUku design system: colour, type and spacing tokens (`tokens.json`), component styles and guidelines, and the brand book (`README.md`). The whole system is also in one PDF: [ShoiUku-Design-System.pdf](design-system/ShoiUku-Design-System.pdf). |
 | `brand/` | The original brand guideline PDF and the two official logos. |
 | `content-outline.md`, `details.txt` | The project facts and content plan the site was built from. |
 
