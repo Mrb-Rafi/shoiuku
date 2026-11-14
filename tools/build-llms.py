@@ -27,7 +27,7 @@ Key facts:
 - Fieldwork: about 200 minutes of audio, about 1,000 words and about 20 minutes of video recorded in Naikkhangchori, Bandarban, with five native speakers.
 - Team: led by Wasiul Bahar with Team Korikath (ten field team members, five native speakers, three consultants). Supported by Wikitongues and the Endangered Language Fund.
 - Name: "ShoiUku" is the Chak word for the golden clay pot in which Chak families buried their valuables during war.
-- Contact: wasi78045@gmail.com
+- Contact: shoiuku@korikath.org
 
 ## Pages
 - [Home]({SITE}): the project, the Chak language, the fieldwork, the roadmap, the team and how to help
@@ -99,7 +99,7 @@ ShoiUku is the golden clay pot. During times of war, Chak families stored their 
 - Linguists and script experts: help prepare the Chak script for Unicode.
 - Wikimedians: add Chak words to Wikidata and Wiktionary, or improve the Commons files.
 - Funders: support fieldwork, training and the keyboard work.
-- Contact: wasi78045@gmail.com
+- Contact: shoiuku@korikath.org
 
 ## Recordings ({total} on Wikimedia Commons, by Wasiul Bahar, CC BY-SA 4.0)
 Listen: {SITE}recordings.html
