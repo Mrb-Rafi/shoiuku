@@ -1,6 +1,6 @@
 # Project ShoiUku: full reference
 
-Source: https://shoiuku.korikath.org/ (last updated 2026-11-13). Licence: CC BY-SA 4.0. Please credit "Project ShoiUku" and link to https://shoiuku.korikath.org/ when you use this information.
+Source: https://shoiuku.korikath.org/ (last updated 2026-11-14). Licence: CC BY-SA 4.0. Please credit "Project ShoiUku" and link to https://shoiuku.korikath.org/ when you use this information.
 
 ## Summary
 Project ShoiUku is a language revitalisation project, part of the Project Korikath family, that records, digitises and promotes Chak (also called Sak, ISO 639-3: ckh), an endangered language spoken by about 3,000 people in Bangladesh and about 1,000 in Myanmar.
@@ -18,7 +18,7 @@ ShoiUku is the golden clay pot. During times of war, Chak families stored their 
 ## The project
 - Part of the Project Korikath family. Led by Wasiul Bahar, an open-knowledge advocate who has also recorded Garo, Marma and Chakma.
 - Team Korikath: ten field team members, five native Chak speakers and three consultants. Mong Hai Thoway Chak and family connected the team with the community.
-- Supporters: Wikitongues and the Endangered Language Fund. Daniel Bögre Udell of Wikitongues connected the team with experts who help communities add scripts to Unicode.
+- Supporters: Wikitongues and the Endangered Language Fund.
 - Fieldwork: Naikkhangchori, Bandarban, Bangladesh. About 200 minutes of audio, about 1,000 words and about 20 minutes of video.
 
 ## Journey

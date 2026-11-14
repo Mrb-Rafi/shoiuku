@@ -75,7 +75,7 @@ ShoiUku is the golden clay pot. During times of war, Chak families stored their 
 ## The project
 - Part of the Project Korikath family. Led by Wasiul Bahar, an open-knowledge advocate who has also recorded Garo, Marma and Chakma.
 - Team Korikath: ten field team members, five native Chak speakers and three consultants. Mong Hai Thoway Chak and family connected the team with the community.
-- Supporters: Wikitongues and the Endangered Language Fund. Daniel Bögre Udell of Wikitongues connected the team with experts who help communities add scripts to Unicode.
+- Supporters: Wikitongues and the Endangered Language Fund.
 - Fieldwork: Naikkhangchori, Bandarban, Bangladesh. About 200 minutes of audio, about 1,000 words and about 20 minutes of video.
 
 ## Journey
